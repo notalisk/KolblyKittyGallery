@@ -1,0 +1,57 @@
+/* 
+Color Palette
+--teal-blue: #3c7a89ff;
+--charcoal: #2e4756ff;
+--fuzzy-wuzzy: #bd6b73ff;
+--lavender-blue: #c6c8eeff;
+--white: #fcfcffff;
+
+--independence: #555b6eff;
+--morning-blue: #89b0aeff;
+--powder-blue: #bee3dbff;
+--cultured: #faf9f9ff;
+--apricot: #ffd6baff;
+*/
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #faf9f9;
+    color: #89B0AE;
+    margin: 0;
+}
+
+header {
+    background-color: #89B0AE;
+    color: #faf9f9;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+#site-title {
+    text-align: center;
+}
+
+#nav-bar {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-inline-start: 0;
+    margin-block: 0;
+    height: 100%;
+}
+
+#nav-bar > li {
+    margin: 0 0.2rem;
+    padding: 0.2rem;
+}
+
+main {
+    padding-top: 200px;
+}
