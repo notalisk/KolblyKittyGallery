@@ -40,6 +40,6 @@ body {
     border-radius: 10px;
   }
 
-h2 {
+h2, p {
     padding-left: 10px;
 }

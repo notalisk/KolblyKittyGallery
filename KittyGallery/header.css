@@ -17,7 +17,7 @@ header {
     background-color: #89B0AE;
     color: #faf9f9;
     width: 100%;
-    height: 50px;
+    height: 51px;
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -36,7 +36,10 @@ header {
 .dropbtn {
     background-color: #89B0AE;
     color: white;
-    padding: 16px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
     font-size: 16px;
     border: none;
     text-decoration: none;
